@@ -15,9 +15,9 @@ For local hosting, I've used VSCode extension [Live Server](https://marketplace.
 
 Also, don't forget to change IP addresses in:
 
-> index.html
-![index.html - line 8](https://raw.githubusercontent.com/Maciejeeeek/chatbox-realtime-odswiezansko-PogU/master/images/index.html%20-%20line%208.png)
-> script.js
+index.html<br>
+![index.html - line 8](https://raw.githubusercontent.com/Maciejeeeek/chatbox-realtime-odswiezansko-PogU/master/images/index.html%20-%20line%208.png)<br>
+script.js<br>
 ![script.js - line 1](https://raw.githubusercontent.com/Maciejeeeek/chatbox-realtime-odswiezansko-PogU/master/images/script.js%20-%20line%201.png)
 
 After that I think that you are good to go!
