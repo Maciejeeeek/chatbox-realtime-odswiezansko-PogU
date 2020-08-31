@@ -1,3 +1,4 @@
+# Original code [here.](https://github.com/WebDevSimplified/Realtime-Simple-Chat-App)
 **BEFORE YOU DO ANYTHING!**
 nodeJS is **required**!
 
