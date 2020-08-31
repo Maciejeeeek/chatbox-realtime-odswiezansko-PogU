@@ -1,10 +1,10 @@
-const socket = io('http://25.93.254.11:3000')
+const socket = io('http://your_ip_address_goes_here:3000')
 const messageContainer = document.getElementById('message-container')
 const messageForm = document.getElementById('send-container')
 const messageInput = document.getElementById('message-input')
 
-const name = prompt('nick?')
-appendMessage('dołączyłeś PogU')
+const name = prompt("What is your nickname, that you want to go by on?")
+appendMessage('You joined!')
 socket.emit('new-user', name)
 
 socket.on('chat-message', data => {
@@ -12,17 +12,17 @@ socket.on('chat-message', data => {
 })
 
 socket.on('user-connected', name => {
-    appendMessage(`${name} dołączył PogU`)
+    appendMessage(`${name} has joined!`)
 })
 
 socket.on('user-disconnected', name => {
-    appendMessage(`${name} rozłączył się Sadge`)
+    appendMessage(`${name} disconnected!`)
 })
 
 messageForm.addEventListener('submit', e => {
     e.preventDefault()
     const message = messageInput.value
-    appendMessage(`Ty: ${message}`)
+    appendMessage(`You: ${message}`)
     socket.emit('send-chat-message', message)
     messageInput.value = ''
 })
