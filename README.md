@@ -11,7 +11,7 @@ $ npm i --save-dev nodemon
 $ npm run devStart
 ```
 
-For local hosting, I've used VSCode extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) or just find it in VSCode extensions.
+For local hosting, I've used VSCode extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) or you can just find it in VSCode extensions.
 
 Also, don't forget to change IP addresses in:
 
